@@ -21,6 +21,11 @@ input:focus {
     outline : none;
 }
 
+#btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 button {
     background-color: #ffffff;
     margin-right: 5px;
@@ -36,7 +41,6 @@ button:hover {
 }
 
 #delete-btn {
-    margin-left: 155px;
     background: #404040;
     border: 1px solid #ffffff;
     color: #ffffff;
